@@ -1,0 +1,24 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v4.json", 
+"width": 1150, 
+"height": 700, 
+"title": "Minimum Wage in the U.S. between 1968 and 2018", 
+"projection": {"type": "equirectangular"}, "layer": [ 
+  { 
+    "data": { 
+      "url": "https://raw.githubusercontent.com/christianjmd/A2/main/usa.geo.topojson", 
+      "format": {"type": "topojson", "feature": "usa"} }, "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "black"} }, { "data": { "url": "https://raw.githubusercontent.com/christianjmd/A2/main/Minimum%20Wage%20Data.csv" }, 
+    "encoding": { 
+      "longitude": {"field": "longitude", "type": "quantitative"},
+      "latitude": {"field": "latitude", "type": "quantitative"} }, 
+    "layer": [ { 
+        "mark": { 
+          "type": "circle", 
+          "tooltip": {"content": "data"} }, 
+        "encoding": { 
+          "size": {
+            "field": "xxx", 
+            "type": "quantitative", 
+            "scale": { "domain": [1, 30] }}, 
+                
+        "color": {"field": "U.S. Dollars ($)", "type": "quantitative", "scale":{ "scheme":"reds" } } } } ] } ] }
