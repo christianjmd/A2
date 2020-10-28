@@ -1,0 +1,13 @@
+country,year,sex,age,suicides_no,population
+United States of America,2015,female,15-24 years,1132,21633813
+United States of America,2015,female,25-34 years,1444,21555712
+United States of America,2015,female,35-54 years,4053,41531809
+United States of America,2015,female,5-14 years,158,20342901
+United States of America,2015,female,55-74 years,2872,35115610
+United States of America,2015,female,75+ years,540,11778666
+United States of America,2015,male,15-24 years,4359,22615073
+United States of America,2015,male,25-34 years,5503,22137097
+United States of America,2015,male,35-54 years,11634,41658010
+United States of America,2015,male,5-14 years,255,21273987
+United States of America,2015,male,55-74 years,9068,32264697
+United States of America,2015,male,75+ years,3171,8171136
